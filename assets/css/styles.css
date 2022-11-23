@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: rgb(39, 39, 39);
+}
+
+#header{
+    background-color: rgb(10, 0, 52);
+    opacity: 90%;
+}
+
+#header a{
+    color: white;
+    text-decoration: none;
+}
+
+#header a:hover{
+    color: rgb(57, 64, 255);
+    text-decoration: none;
+}
+
+#cover{
+    background-image: url(../img/cover.jpg);
+    background-size: cover;
+    color: white;
+}
+
+#content{
+    color: black;
+}
+
+#imagen{
+    text-align: center;
+}
+
+#imagen img{
+    width: 450px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+#boton{
+    color: black;
+    background-color: white;
+    border-style: none;
+}
+
+#boton:hover{
+    color: white;
+    background-color: rgb(27, 6, 78);
+    border-style: none;
+}
+
+.cripto{
+    width: 40%;
+}
+
+/* CriptoMonedas */
+
+#bitcoin{
+    background-image: url(../img/i1.png);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+#ethereum{
+    background-image: url(../img/i2.png);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+#litecoin{
+    background-image: url(../img/i3.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+#stellar{
+    background-image: url(../img/i4.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+#dash{
+    background-image: url(../img/i5.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+#neo{
+    background-image: url(../img/i6.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+#tether{
+    background-image: url(../img/i7.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+#usd{
+    background-image: url(../img/i8.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+/* Footer */
+
+#footer h5{
+    color: white;
+}
